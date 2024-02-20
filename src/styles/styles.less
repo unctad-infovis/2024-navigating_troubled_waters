@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+@import 'colors.less';
+
+#app-root-2024-navigating_troubled_waters .app {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  .header_container {
+    background-color: @unblue;
+    .content_container {
+      max-width: 900px;
+      box-sizing: border-box;
+      margin: auto auto;
+      padding: 100px 0 20px 0;
+      position: relative;
+      text-align: center;
+      h2 {
+        display: inline-block;
+        font-family: Roboto Condensed;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 70px;
+        margin: 10px auto 20px auto;
+        padding: 0px 10px;
+        text-transform: uppercase;
+        @media all and (max-width: 550px) {
+          font-size: 46px;
+          line-height: 50px;
+          padding: 20px 10px;
+        }
+        &.title {
+          background-color: #fff;
+          color: @unbluetext;
+          margin: 10px auto 10px auto;
+        }
+        &:after {
+          display: none;
+        }
+      }
+      h3 {
+        color: #000;
+        font-family: Roboto Condensed;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        padding: 0 20px;
+        margin: auto auto 60px auto;
+        text-transform: uppercase;
+        max-width: 800px;
+        @media all and (max-width: 550px) {
+          font-size: 30px;
+          line-height: 36px;
+        }
+      }
+      h4 {
+        color: #000;
+        font-size: 36px;
+        font-weight: 300;
+        margin: 0 0 10px 0;
+        text-transform: uppercase;
+        @media all and (max-width: 550px) {
+          font-size: 26px;
+          line-height: 30px;
+        }
+        &.date {
+          background-color: #fff;
+          color: #000;
+          display: inline-block;
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: 400;
+          margin-bottom: 20px;
+          padding: 2px 10px;
+          text-transform: none;
+        }
+      }
+      img {
+        max-width: 1000px;
+        width: 100%;
+        display: inline;
+        padding: 0;
+      }
+      .bottom {
+        width: 100%;
+        .flex {
+          @import 'arrow.less';
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          width: 100%;
+          p {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            max-width: 600px;
+            padding: 0 20px;
+            line-height: 18px;
+            margin: 20px auto 20px auto;
+          }
+          .unctad_logo_container {
+            img {
+              padding-bottom: 30px;
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .button_container {
+    margin: 20px auto 40px auto;
+    text-align: center;
+    a {
+      &.button {
+        background-color: #fff;
+        border-radius: 15px;
+        color: #222;
+        font-size: 18px;
+        padding: 5px 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          background-color: @unblue;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .content_container {
+    position: relative;
+    box-sizing: border-box;
+    margin: auto auto 40px auto;
+    max-width: 650px;
+    h4 {
+      color: @unbluetext;
+      font-family: Roboto Condensed;
+      font-size: 32px;
+      font-weight: 600;
+      margin: 60px auto 20px auto;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 26px;
+      margin: auto 0 20px auto !important; 
+      text-align: left;
+      sup {
+        font-size: 12px;
+        line-height: 0;
+      }
+      strong {
+        font-weight: 600;
+      }
+      &.highlight {
+        color: @unbluetext;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 32px;
+        margin: 40px auto 40px auto !important; 
+        max-width: 600px;
+      }
+      a {
+        color: @unbluetext;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .chart_container {
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: auto auto 40px auto;
+    max-width: 600px;
+    overflow: hidden;
+    .chart {
+      padding: 0 10px;
+    }
+    .video_container {
+      height: 0;
+      margin-bottom: 5px;
+      overflow: hidden;
+      padding-top: 56.25%;
+      position: relative;
+      video {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+      .date {
+        background-color: @unblue;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        left: 50px;
+        padding: 5px 12px;
+        position: absolute;
+        top: 0;
+      }
+    }
+    img {
+      width: 100%;
+    }
+    h4 {
+      color: rgb(0, 0, 0);
+      font-family: Roboto Condensed;
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      margin: 0 0 7px 0;
+      padding: 0;
+      text-decoration: none;
+    }
+    h5 {
+      color: rgb(88, 89, 91);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 20px;
+      margin: 0 0 20px 0;
+      text-decoration: none;
+    }
+    h6 {
+      color: rgb(88, 89, 91);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      margin: 0 0 2px 0;
+      text-decoration: none;
+      em {
+        font-weight: 300;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+@import 'basics.less';
