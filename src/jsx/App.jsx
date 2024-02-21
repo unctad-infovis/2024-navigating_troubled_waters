@@ -40,8 +40,14 @@ function App() {
       </div>
       <div className="content_container">
         <h4>The magnitude of overlapping shipping disruptions</h4>
-        <p>For the first time, the world faces simultaneous disruptions in major global maritime trade waterways, with far-reaching implications for inflation and food and energy security.</p>
+        <p>For the first time, the world faces simultaneous disruptions in two major global maritime trade waterways, with far-reaching implications for inflation and food and energy security.</p>
         <p>Since November 2023, escalating attacks on ships in the Red Sea have been compounding disruptions in the Black Sea caused by the war in Ukraine and in the Panama Canal due to climate-induced droughts.</p>
+      </div>
+      <div className="chart_container">
+        <img src={`${window.location.href.includes('unctad.org') ? 'https://storage.unctad.org/2024-navigating_troubled_waters' : '.'}/assets/img/2024-navigating_troubled_waters_photo.jpg`} alt="" />
+        <h6>© Shutterstock/byvalet | A container ship passes through the Suez Canal.</h6>
+      </div>
+      <div className="content_container">
         <p>The drop in monthly transits underscores the magnitude of overlapping shipping disruptions.</p>
         <p>In both the Suez and Panama canals, transits are down by more than 40% compared to their peaks. Most of the decline in the Suez Canal occurred over the last two months, while transits through the Panama Canal have been decreasing over the last two years.</p>
       </div>
@@ -83,7 +89,7 @@ function App() {
         <ChartContainer chart_id="w3tl7" />
       </div>
       <div className="content_container">
-        <p>To avoid long waiting times, vessels were rerouted through the Suez Canal for Asia-bound cargo, increasing Suez transits before the current Red Sea crisis. The disruptions in the Panama Canal have increased demand for rail and road transport services in recent weeks, as shippers no longer have the option of rerouting through the Suez Canal.</p>
+        <p>To avoid long waiting times, vessels were rerouted through the Suez Canal for cargo originating from Asia, increasing Suez transits before the current Red Sea crisis. The disruptions in the Panama Canal have increased demand for rail and road transport services in recent weeks, as shippers no longer have the option of rerouting through the Suez Canal.</p>
         <h4>Red Sea and Suez Canals interrupted: Impacts and implications</h4>
         <p>
           The Suez Canal is a major source of foreign currency revenue for Egypt, contributing $9.4 billion in the fiscal year 2022/23, about 2.3% of the country’s GDP. The Red Sea crisis has reportedly triggered a 40% drop in Suez Canal revenues
@@ -101,7 +107,7 @@ function App() {
           <sup title="UNCTAD (2023). Review of Maritime Transport 2023.">5</sup>
         </p>
         <p>
-          In other shipping markets, more oil tankers are now also rerouting through the Cape of Good Hope. The number of specialized car-carrying ships using the Red Sea dropped by more than half in December 2023 compared with December 2022. And practically no liquified natural gas carrying vessels are currently using the Suez Canal, causing a spike in gas prices.
+          In other shipping markets, more oil tankers are now also rerouting through the Cape of Good Hope. The number of specialized car-carrying ships using the Red Sea dropped by more than half in December 2023 compared with December 2022. And practically no liquified natural-gas carrying vessels are currently using the Suez Canal, causing a spike in gas prices.
           <sup title="Drewry Maritime Research Container Forecaster Q4, 2023." />
         </p>
       </div>
@@ -141,7 +147,7 @@ function App() {
       <div className="content_container">
         <h4>Way forward</h4>
         <p>While the combined impact of these disruptions has not yet matched the scale of the pandemic-induced logistical crisis of 2021–2022, UNCTAD is closely monitoring the situation.</p>
-        <p>The war in Ukraine has already shown how longer distances and higher freight rates can affect food prices. UNCTAD estimated that about half of the increase in food prices observed in 2022 was due to higher transport costs.</p>
+        <p>The war in Ukraine has already shown how longer distances and higher freight rates can affect food prices.</p>
         <p>Going forward, it will be important to continue to monitor key developments and assess their potential implications for transport and trade, especially for developing countries. Key issues to track include shipping schedules and service reliability, security measures for ships and ports, delays in shipments and delivery timelines, increased freight rates and insurance premiums, shipping connectivity and the overall geography of trade.</p>
       </div>
     </div>
