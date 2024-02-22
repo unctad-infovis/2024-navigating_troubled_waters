@@ -15,7 +15,7 @@ function App() {
       <div className="header_container">
         <div className="content_container">
           <h2 className="title">Navigating Troubled Waters</h2>
-          <h3 className="subtitle">Impact to Global Trade of Distruption of Shipping Routes in the Red Sea, Black Sea and Panama Canal</h3>
+          <h3 className="subtitle">Impact to Global Trade of Disruption of Shipping Routes in the Red Sea, Black Sea and Panama Canal</h3>
           <h4>Unctad Rapid Assessment</h4>
           <h4 className="date">February 2024</h4>
           <img src={`${window.location.href.includes('unctad.org') ? 'https://storage.unctad.org/2024-navigating_troubled_waters' : '.'}/assets/img/2024-navigating_troubled_waters-min.png`} alt="" />
