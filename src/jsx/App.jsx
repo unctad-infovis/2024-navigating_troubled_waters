@@ -22,7 +22,7 @@ function App() {
           <div className="bottom">
             <div className="flex">
               <div className="unctad_logo_container">
-                <img src="https://unctad.org/sites/default/files/2022-11/unctad_logo_white.svg" alt="UNCTAD logo" />
+                <img src={`${window.location.href.includes('unctad.org') ? 'https://storage.unctad.org/2024-navigating_troubled_waters/' : './'}assets/img/unctad_logo_white.svg`} alt="UNCTAD logo" />
               </div>
               <svg className="arrows">
                 <path className="a1" d="M0 0 L30 32 L60 0" />
